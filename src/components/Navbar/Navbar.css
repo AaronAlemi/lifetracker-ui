@@ -1,0 +1,33 @@
+.Navbar {
+    width: 100%;
+    max-width: 100vw;
+    background: var(--dark-background);
+    height: var(--navbar-height);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 var(--side-padding);
+}
+
+.Navbar .content {
+    max-width: var(--content-width);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar .content .logo {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.Navbar .logo img {
+    max-height: 100px;
+}
+
+nav {
+    color:green
+}

@@ -1,0 +1,9 @@
+.Login {
+    min-height: calc(100vh - var(--navbar-height));
+    height: 100%;
+    max-height: calc(100vh - var(--navbar-height));
+    width: 100%;
+    max-width: 100vw;
+    background: var(--dark-blue);
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+.landing-page, .landing-page .hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page .hero {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.landing-page .hero img {
+    position: absolute;
+}
+
+.landing-page .hero h1, .Landing .hero p {
+    color: var(--pure-white);
+    position: relative;
+    z-index: 10;
+}
+
+.landing-page .hero p {
+    color: var(--pure-white);
+    position: relative;
+    z-index: 10;
+    font-size: 24px;
+}

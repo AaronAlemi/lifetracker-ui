@@ -1,0 +1,163 @@
+.NutritionPage, .NutritionPage .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Banner {
+    align-items: center;
+    justify-content: center;
+    background: var(--less-dark-background);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    color: var(--pure-white);
+}
+
+.Banner h1 {
+    color: var(--pure-white);
+}
+
+
+.nutrition-page .content {
+    max-width: var(--content-width);
+    margin: 50px auto 0;
+}
+
+
+
+/* Button */
+
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    transition: all .2s ease;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+
+.Button.outline.aqua {
+    background: transparent;
+    color: var(--accent-aqua);
+    border: 1px solid var(--accent-aqua);
+}
+
+/* Nutrition Overview */
+
+.NutritionOverview {
+    display: flex;
+    flex-direction: column;
+}
+
+.NutritionOverview .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NutritionOverview .header h3 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--pure-white);
+}
+
+.NutritionOverview .feed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Nutrition Card */
+
+.NutritionCard {
+    width: 360px;
+    height: 220px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 16px 32px;
+    background: var(--aqua-linear-gradient);
+}
+
+.NutritionCard .card-header {
+    justify-content: flex-start;
+}
+
+.NutritionCard .card-header img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.NutritionCard .card-header .title, .NutritionCard .card-meta small {
+    color: var(--pure-white);
+}
+
+.NutritionCard .card-header, .NutritionCard .card-meta, .NutritionCard .card-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CardStat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardStat p, .CardStat span {
+    color: var(--pure-white);
+    font-weight: 400;
+}
+
+.CardStat span {
+    font-size: 40px;
+}
+
+.CardStat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardStat p, .CardStat span {
+    color: var(--pure-white);
+    font-weight: 400;
+}
+
+.CardStat span {
+    font-size: 40px;
+}
+
+.NutritionCard .card-header, .NutritionCard .card-meta, .NutritionCard .card-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NutritionCard .card-header .title, .NutritionCard .card-meta small {
+    color: var(--pure-white);
+}
+
+.NutritionCard .card-meta small.category {
+    color: var(--pure-white);
+    border: 1px solid var(--pure-white);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
